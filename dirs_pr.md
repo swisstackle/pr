@@ -22,7 +22,9 @@ we should give him the ability to specifiy multiple directories and files, so th
   - Expected behavior: Executing every file inside the /test directory recursively without an error message.
 - Test with no argument and cycles through Symlinks inside /test, where the /test directory includes atleast one file in one of the subdirectories (recursively). **DONE**
   - Expected behavior: Executing every file inside the /test directory recursively without an error message and without cycling.
-- Test with no argument and empty directory.
+- Test with no argument and cycles through Symlinks inside /test, where the /test directory includes atleast one file outside of the test directory that is linked to the testdirectory through a symlink. **DONE**
+  - Expected behavior: Executing every file inside the /test directory plus the file outside of the test directory recursively without an error message and without cycling.
+- Test with no argument and empty directory. **Unit test DONE. Integration test PENDING.**
   - Expected behavior: Output error message saying that the command could not find a file inside the /test directory.
 - Test with only files specified where one or more file is missing
     - Expected behavior: Output error message saying which files are missing.
@@ -32,7 +34,4 @@ we should give him the ability to specifiy multiple directories and files, so th
     - Expected behavior: Output error message saying which directories/files are missing.
 - Test with only directories specified where one or more directory is empty
     - Expected behavior: Output error message saying which directories are empty.
-- Test with only files specified, where one or more file is missing
-  - Expected behavior: Output error message saying which files are missing.
-
 
