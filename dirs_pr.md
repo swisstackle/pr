@@ -26,12 +26,12 @@ we should give him the ability to specifiy multiple directories and files, so th
   - Expected behavior: Executing every file inside the /test directory plus the file outside of the test directory recursively without an error message and without cycling.
 - Test with no argument and empty directory. **Unit test DONE. Integration test PENDING.**
   - Expected behavior: Output error message saying that the command could not find a file inside the /test directory.
-- Test with only files specified where one or more file is missing
+- Test with only files specified where one or more file is missing **DONE**
     - Expected behavior: Output error message saying which files are missing.
-- Test with only directories specified where one or more directory is missing
+- Test with only directories specified where one or more directory is missing **DONE**
     - Expected behavior: Output error message saying which directories are missing.
-- Test with files and directories specified, where files and directories are missing
+- Test with files and directories specified, where files and directories are missing **DONE**
     - Expected behavior: Output error message saying which directories/files are missing.
-- Test with only directories specified where one or more directory is empty
+- Test with only directories specified where one or more directory is empty **DONE**
     - Expected behavior: Output error message saying which directories are empty.
 
