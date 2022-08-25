@@ -20,7 +20,7 @@ we should give him the ability to specifiy multiple directories and files, so th
   - Expected behavior: Executing the files in the specified directories and only said files without an error message.
 - Test with no argument specified and no cycles, where the /test directory includes atleast one file in one of the subdirectories (recursively).
   - Expected behavior: Executing every file inside the /test directory recursively without an error message.
-- Test with no argument and cycles through Symlinks inside /test, where the /test directory includes atleast one file in one of the subdirectories (recursively).
+- Test with no argument and cycles through Symlinks inside /test, where the /test directory includes atleast one file in one of the subdirectories (recursively). DONE
   - Expected behavior: Executing every file inside the /test directory recursively without an error message and without cycling.
 - Test with no argument and empty directory.
   - Expected behavior: Output error message saying that the command could not find a file inside the /test directory.
