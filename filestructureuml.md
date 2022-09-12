@@ -1,4 +1,4 @@
-'''
+```plantuml
 @startuml
 digraph g {
 graph [
@@ -34,13 +34,10 @@ shape = "record"
 label = "<f0> TestMetaCoin.sol"
 shape = "record"
 ];
-
-
 "node6" [
 label = "<f0> sub_directory"
 shape = "record"
 ];
-
 "node7" [
 label = "<f0> sub__sub_directory"
 shape = "record"
@@ -73,7 +70,6 @@ shape = "record"
 label = "<f0> test5.js"
 shape = "record"
 ];
-
 "node15" [
 label = "<f0> test6.sol"
 shape = "record"
@@ -122,7 +118,6 @@ shape = "record"
 label = "<f0> test16.sol - test18.sol"
 shape = "record"
 ];
-
 "node0":f0 -> "node1":f0 [
 id = 0
 ];
@@ -153,7 +148,6 @@ id = 3
 "node6":f1 -> "node10":f0 [
 id = 3
 ];
-
 "node7":f1 -> "node11":f0 [
 id = 3
 ];
@@ -163,7 +157,6 @@ id = 3
 "node7":f1 -> "node13":f0 [
 id = 3
 ];
-
 "node8":f1 -> "node14":f0 [
 id = 3
 ];
@@ -176,25 +169,21 @@ id = 3
 "node8":f1 -> "node17":f0 [
 id = 3
 ];
-
 "node17":f1 -> "node18":f0 [
 id = 3
 ];
 "node17":f1 -> "node19":f0 [
 id = 3
 ];
-
 "node18":f1 -> "node20":f0 [
 id = 3
 ];
-
 "node19":f1 -> "node21":f0 [
 id = 3
 ];
 "node19":f1 -> "node22":f0 [
 id = 3
 ];
-
 "node21":f1 -> "node23":f0 [
 id = 3
 ];
@@ -207,7 +196,6 @@ id = 3
 "node24":f1 -> "node26":f0 [
 id = 3
 ];
-
 }
 @enduml
-'''
+```
