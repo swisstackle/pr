@@ -47,15 +47,15 @@ label = "<f0> sub__sub_directory2"
 shape = "record"
 ];
 "node9" [
-label = "<f0> symlink1 | <f1> Pointing to: sub_sub_directory"
+label = "<f0> symlink1"
 shape = "record"
 ];
 "node10" [
-label = "<f0> symlink3 | <f1> Pointing to: random.sol"
+label = "<f0> symlink3"
 shape = "record"
 ];
 "node11" [
-label = "<f0> symlink2 | <f1> Pointing to: sub_directory"
+label = "<f0> symlink2"
 shape = "record"
 ];
 "node12" [
@@ -194,6 +194,16 @@ id = 3
 id = 3
 ];
 "node24":f1 -> "node26":f0 [
+id = 3
+];
+
+"node11":f1 -> "node6":f0 [
+id = 3
+];
+"node9":f1 -> "node7":f0 [
+id = 3
+];
+"node10":f1 -> "node0":f0 [
 id = 3
 ];
 }
