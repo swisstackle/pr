@@ -14,6 +14,14 @@ we should give him the ability to specifiy multiple directories and files, so th
 
 ### Unit Tests
 - Test for recoginizing the command.
+- Test with no arguments and 1 empty directory
+  - ![dir](emptydir.png)
+- Test with 1 directory and multiple files in it
+  - ![dir](1dirMulFiles.png)
+- Test with 2 directories and multiple files in it
+  - ![dir](2dirsMulFiles.png)
+- Test with 3 directories and multiple files in it
+  - ![dir](3dirsMulFiles.png)
 - Test with no cycles and no missing files, where only files are specified.
   - Expected behavior: Executing the specified files and only the specified files without an error message.
 - Test with no cycles and no missing directories, where all directories exist and all directories contain one or more file.
